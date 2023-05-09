@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d7cc5;
+  color: #fff;
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  display: flex;
+  font-style: inherit;
+  align-items: center;
+}
+ 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+label.gender {
+  display: block;
+}
+
+label.gender input {
+  display: inline-block;
+  margin-right: 10px;
+}
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skill-checkbox {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.skill-input {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
